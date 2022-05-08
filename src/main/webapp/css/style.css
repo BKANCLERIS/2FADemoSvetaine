@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 28, 2022, 2:22:29 PM
+    Author     : Benas
+*/
+body {
+    background-color: #03312E;
+}
+.pastel{
+    color: #037171;
+    font-weight: bold;
+}
+label{
+    color: #037171;
+    font-weight: bold;
+}
+
+.important{
+    color: red;
+}
+button {
+    background-color: #037171;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    color: white;
+    background-color: #037171;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 15px;
+}
+
+.content {
+
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    background-color: #00B9AE;
+    max-width: 500px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
