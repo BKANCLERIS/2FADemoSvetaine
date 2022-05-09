@@ -29,7 +29,7 @@ public class ComUtils {
     public ComUtils() throws IOException{
         this.rSAc = new RSAc();
         this.aes = new AES();
-        this.socket = new Socket("localhost", 8022);
+        this.socket = new Socket("localhost", 81);
             socket.setSoTimeout(350000);
             br = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
@@ -40,6 +40,7 @@ public void KeyExchange() throws IOException, Exception{
             out.println(rSAc.getPub());
             String AESKey = rSAc.decrypt(br.readLine());
             aes.setSecretKey(AESKey);
+            
 }
 public String readLine(){
         try {
